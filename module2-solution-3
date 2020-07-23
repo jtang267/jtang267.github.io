@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+{
+  box-sizing: border-box;
+}
+
+h1 {
+	font-size: 27px;
+	font-family: Georgia serif;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Georgia sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+
+.section { 
+	background-color: rgb(150, 150, 150);
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#nr1 {
+	background-color: rgb(250, 150, 150);
+	color: rgb(0, 0, 0);
+}
+#nr2 {
+	background-color: rgb(250, 0, 0);
+	color: rgb(250, 250, 250);
+}
+#nr3 {
+	background-color: rgb(200, 200, 100);
+	color: rgb(0, 0, 0);
+}
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Dream Jobs And Why I Abandoned Them</title>
+</head>
+<body>
+<h1>Dream Jobs And Why I Abandoned Them</h1>
+<div class="row">
+ <div class="col-lg-4 col-md-6 sx-12">
+ 	<div class="section">
+ 		<span id="nr1">FILM CRITIC</span>
+ 		 <p> Critiquing movies was a fascination I had when I was a kid, and because of this, Roger Ebert's film reviews, and Rotten Tomatoes, I have aspired to be a film critic when I grew up. However I gave up that dream after I realized that my salary for that job would be pretty low and unsustainable. </p>
+ 		</div>
+ 	</div>	 
+ 	 <div class="col-lg-4 col-md-6 sx-12">
+ 	 	<div class="section">
+ 	 	 <span id="nr2">ZOOLOGIST</span>
+ 	 		<p> Bringing dinosaurs and other prehistoric animals back to the 21st Century was a major dream I had as a kid. But then I realized the TRUE reason as to why no one has ever actually done this yet, or even DARED TO. Going back to in time and bringing back a dinosaur back to our time could possibly throw our timeline off the whack. And if by some chance that this didn't happen, there's no way I could possibly afford the money to run or pay for the hypothetical prehistoric park the dinosaurs would be in. </p>
+ 		</div>
+ 	</div>		    	
+     <div class="col-lg-4 col-md-12 sx-12">
+     	<div class="section">
+     		<span id="nr3">FILMMAKER</span>
+     		<p> Filmmaking was something I was interested in for a while now, as I throughout the last few years, I have came up with some pitches for movies for Marvel, DC, WB, Disney, after watching their films. I also wanted to be a film editor as well, as the idea of reviewing and correcting film scripts interested me. But over time, I grew less and less interested in this job field until it became a dream I wasn't persuing any longer. </p>
+     	</div>
+    </div> 			
+</div>
+</body>
+</html>	
